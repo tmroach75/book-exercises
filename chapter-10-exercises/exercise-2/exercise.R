@@ -89,3 +89,6 @@ mean(salaries[salaries$got_raise == FALSE, "adjustments"])
 
 # Write a .csv file of your salary data to your working directory
 
+write.csv(salaries, "salaries.csv")
+
+
